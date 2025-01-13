@@ -17,7 +17,6 @@ type NavigationProp = StackNavigationProp<RootStackParamList>;
 
 const WelcomeScreen = () => {
   const navigation = useNavigation<NavigationProp>();
-
   return (
     <>
       <ImageBackground
